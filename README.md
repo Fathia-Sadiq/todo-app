@@ -1,59 +1,89 @@
 # TodoApp
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.5.
+# Angular Todo App
 
-## Development server
+A task management application built with Angular and TypeScript to demonstrate modern web framework proficiency and rapid learning ability.
 
-To start a local development server, run:
+## Purpose
 
-```bash
+Built as a self-directed learning project to gain hands-on experience with Angular framework in preparation for working with TypeScript-based web applications in professional environments.
+
+## Features
+
+- ✅ Add, complete, and delete tasks
+- ✅ Real-time statistics (active, completed, total)
+- ✅ Clean, responsive user interface
+- ✅ Keyboard shortcuts (Enter to add task)
+- ✅ Persistent state during session
+- ✅ TypeScript type safety throughout
+
+## Technologies
+
+- **Angular** 17+ (standalone components)
+- **TypeScript** - strict typing and interfaces
+- **RxJS** - reactive programming
+- **CSS3** - modern styling with transitions
+
+## Architecture Highlights
+
+- Component-based architecture with separation of concerns
+- TypeScript interfaces for type safety (`Todo` interface)
+- Two-way data binding with `[(ngModel)]`
+- Structural directives (`*ngFor`, `*ngIf`)
+- Event binding and handling
+- Computed properties (getters) for dynamic stats
+
+## Local Development
+
+### Prerequisites
+- Node.js 18+
+- npm
+
+### Installation
+
+\`\`\`bash
+# Clone the repository
+git clone https://github.com/Fathia-Sadiq/todo-app.git
+cd angular-todo-app
+
+# Install dependencies
+npm install
+
+# Start development server
 ng serve
-```
+\`\`\`
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Navigate to `http://localhost:4200`
 
-## Code scaffolding
+### Build
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
+\`\`\`bash
 ng build
-```
+\`\`\`
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## What I Learned
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+- Angular's component lifecycle and standalone components
+- TypeScript interfaces and type safety
+- Template syntax and data binding
+- Managing component state
+- Angular CLI workflow and project structure
+- Modern frontend development practices
 
-```bash
-ng test
-```
+## Future Enhancements
 
-## Running end-to-end tests
+- Add localStorage persistence
+- Implement task categories/tags
+- Add due dates and priorities
+- Create filter views (all/active/completed)
+- Add edit functionality for existing tasks
 
-For end-to-end (e2e) testing, run:
+## Author
 
-```bash
-ng e2e
-```
+Built by Fathia Sadiq as a learning exercise in Angular and TypeScript.
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+## License
 
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+MIT

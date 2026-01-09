@@ -10,12 +10,12 @@ Built as a self-directed learning project to gain hands-on experience with Angul
 
 ## Features
 
-- ✅ Add, complete, and delete tasks
-- ✅ Real-time statistics (active, completed, total)
-- ✅ Clean, responsive user interface
-- ✅ Keyboard shortcuts (Enter to add task)
-- ✅ Persistent state during session
-- ✅ TypeScript type safety throughout
+- Add, complete, and delete tasks
+- Real-time statistics (active, completed, total)
+  Clean, responsive user interface
+- Keyboard shortcuts (Enter to add task)
+- Persistent state during session
+- TypeScript type safety throughout
 
 ## Technologies
 

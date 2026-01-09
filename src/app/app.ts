@@ -26,6 +26,21 @@ export class App {
       this.todos.push(newTodo);
       this.newTodoTitle.set('');
     }
+  }
 
+  removeTodo(id: number): void {
+    this.todos = this.todos.filter(todo => todo.id !== id);
+  } 
+
+  toggleTodo(todo: Todo): void {
+    todo.completed = !todo.completed;
+  }
+
+  get activeTodos(): number {
+    return this.todos.filter(todo => !todo.completed).length;
+  }
+
+  get completedTodos(): number {
+    return this.todos.filter(todo => todo.completed).length;
   }
 }
